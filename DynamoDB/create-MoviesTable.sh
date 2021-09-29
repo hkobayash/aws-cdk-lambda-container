@@ -1,4 +1,4 @@
-aws dynamodb --region us-east-1 create-table \
+aws dynamodb create-table \
     --table-name Movies \
     --attribute-definitions \
         AttributeName=year,AttributeType=N \
